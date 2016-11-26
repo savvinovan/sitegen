@@ -6,5 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'DataValues\\' => array($vendorDir . '/data-values/data-values/src'),
 );

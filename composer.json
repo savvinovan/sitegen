@@ -1,5 +1,5 @@
 {
     "require": {
-        "mediawiki/semantic-media-wiki": "^2.4"
+        "dg/rss-php": "^1.2"
     }
 }
