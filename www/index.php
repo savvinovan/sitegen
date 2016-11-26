@@ -18,6 +18,20 @@ if ($req[0] == 'api') {
     $ex = $gw->parseResponse();
     echo $ex;
     // Search Image class
+
+    // Youtube search api
+
+    require '../application/controllers/get_youtube.php';
+    $gy = new GetYoutube($req[2]);
+    $data = $gy->getVideoUrl();
+    echo '<pre>';
+    print_r($data[0]->id->videoId);
+    echo '</pre>';
+
+    echo '<iframe width="420" height="315"
+src="https://www.youtube.com/embed/'. $data[0]->id->videoId .'">
+</iframe>';
+
     // MySQL store
 
     // ============ Generate Template ==========
