@@ -203,7 +203,6 @@ class Feed
 	private static function httpRequest($url, $user, $pass)
 	{
 		if (extension_loaded('curl')) {
-//echo 'test1';			
 			$curl = curl_init();
 			curl_setopt($curl, CURLOPT_URL, $url);
 			if ($user !== NULL || $pass !== NULL) {
@@ -213,25 +212,15 @@ class Feed
 			curl_setopt($curl, CURLOPT_TIMEOUT, 20);
 			curl_setopt($curl, CURLOPT_ENCODING , '');
 			curl_setopt($curl, CURLOPT_RETURNTRANSFER, TRUE); // no echo, just return result
-curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
-//curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-//curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 1);
-//curl_setopt($curl, CURLOPT_USERAGENT,      $this->getUserAgent(/*$proxyIp*/));
-//curl_setopt($curl, CURLOPT_MAXREDIRS,      4);
-//curl_setopt($curl, CURLOPT_TIMEOUT,        20);
-//curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 5);
-
 			if (!ini_get('open_basedir')) {
 				curl_setopt($curl, CURLOPT_FOLLOWLOCATION, TRUE); // sometime is useful :)
 			}
 			$result = curl_exec($curl);
-//echo $result;			
 			return curl_errno($curl) === 0 && curl_getinfo($curl, CURLINFO_HTTP_CODE) === 200
 				? $result
 				: FALSE;
 
 		} elseif ($user === NULL && $pass === NULL) {
-//echo 'test2';			
 			return file_get_contents($url);
 
 		} else {
