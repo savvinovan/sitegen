@@ -51,5 +51,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6b2aeb2', e
 }
 
 .hr-style {
-
+	width: 100%; 
+	color: black; 
+	height: 1px; 
+	background-color:black;
 }
