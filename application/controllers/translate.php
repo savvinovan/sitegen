@@ -1,6 +1,6 @@
 <?
 class ytranslate {
-	private $en;
+	public $en;
 	function __construct ($req) {
 		$this->rutran($req);
 	}

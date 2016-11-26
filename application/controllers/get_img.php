@@ -1,6 +1,6 @@
 <?
 class getImg {
-	private $urls;
+	public $urls;
 	function __construct($req) {
 		$this->getJSON($req);
 	}
