@@ -58,6 +58,7 @@ class ComposerStaticInit38ba51e01a26887269b32493e5e3f12a
         'Feed' => __DIR__ . '/..' . '/dg/rss-php/src/Feed.php',
         'FeedException' => __DIR__ . '/..' . '/dg/rss-php/src/Feed.php',
         'Madcoda\\Youtube' => __DIR__ . '/..' . '/madcoda/php-youtube-api/src/compat.php',
+        'nokogiri' => __DIR__ . '/..' . '/olamedia/nokogiri/nokogiri.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
