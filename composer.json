@@ -1,5 +1,7 @@
 {
     "require": {
+        "webmozart/json": "^1.2",
+        "madcoda/php-youtube-api": "^1.2",
         "dg/rss-php": "^1.2"
     }
 }

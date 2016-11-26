@@ -6,6 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Feed' => $vendorDir . '/dg/rss-php/src/Feed.php',
-    'FeedException' => $vendorDir . '/dg/rss-php/src/Feed.php',
+    'Madcoda\\Youtube' => $vendorDir . '/madcoda/php-youtube-api/src/compat.php',
 );
