@@ -6,310 +6,58 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit38ba51e01a26887269b32493e5e3f12a
 {
-    public static $files = array (
-        'd1715cacc3c23b16a030645514266a76' => __DIR__ . '/..' . '/data-values/interfaces/Interfaces.php',
-        '7cb394c3af2b1ae832979b0368e0da62' => __DIR__ . '/..' . '/data-values/data-values/DataValues.php',
-        '0dd9431cbbfa9ed9cb9d565d7129dbaf' => __DIR__ . '/..' . '/data-values/validators/Validators.php',
-        '90559502573a0d473dc66fde5c0ff7e2' => __DIR__ . '/..' . '/data-values/common/Common.php',
-        'af3cc937b8a54e5b4209c82d6cfe8889' => __DIR__ . '/..' . '/param-processor/param-processor/DefaultConfig.php',
-        'f4c767faab43077fd89ff7cf99ffb4b8' => __DIR__ . '/..' . '/serialization/serialization/Serialization.php',
-        '94e265ce14c952a920a4ea5f7e8e9baa' => __DIR__ . '/..' . '/mediawiki/parser-hooks/ParserHooks.php',
-        '69e0397dea3bf8934eed002abf6b38ef' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/Aliases.php',
-        '1e1cb42dd2499e18ea5eab984a9f5c8b' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/Defines.php',
-        '81831d7e713e54a40378b62fec6629d5' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src/GlobalFunctions.php',
-        '0e960e930c32120da8e2ee126b82c67b' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/DefaultSettings.php',
-        'cd9b6b6b76aed1304a64986142337d3a' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/SemanticMediaWiki.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
-        'V' => 
+        'W' => 
         array (
-            'ValueValidators\\' => 16,
-            'ValueParsers\\' => 13,
-            'ValueFormatters\\' => 16,
+            'Webmozart\\PathUtil\\' => 19,
+            'Webmozart\\Json\\' => 15,
+            'Webmozart\\Assert\\' => 17,
         ),
         'S' => 
         array (
-            'Serializers\\' => 12,
-            'SMW\\Maintenance\\' => 16,
-            'SMW\\' => 4,
+            'Seld\\JsonLint\\' => 14,
         ),
-        'P' => 
+        'M' => 
         array (
-            'ParserHooks\\' => 12,
-            'ParamProcessor\\' => 15,
+            'Madcoda\\Youtube\\' => 16,
         ),
-        'O' => 
+        'J' => 
         array (
-            'Onoi\\MessageReporter\\' => 21,
-            'Onoi\\HttpRequest\\' => 17,
-            'Onoi\\EventDispatcher\\' => 21,
-            'Onoi\\CallbackContainer\\' => 23,
-            'Onoi\\Cache\\' => 11,
-            'Onoi\\BlobStore\\' => 15,
-        ),
-        'D' => 
-        array (
-            'Deserializers\\' => 14,
-            'DataValues\\' => 11,
-        ),
-        'C' => 
-        array (
-            'Composer\\Installers\\' => 20,
+            'JsonSchema\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'ValueValidators\\' => 
+        'Webmozart\\PathUtil\\' => 
         array (
-            0 => __DIR__ . '/..' . '/data-values/interfaces/src/ValueValidators',
-            1 => __DIR__ . '/..' . '/data-values/validators/src',
+            0 => __DIR__ . '/..' . '/webmozart/path-util/src',
         ),
-        'ValueParsers\\' => 
+        'Webmozart\\Json\\' => 
         array (
-            0 => __DIR__ . '/..' . '/data-values/interfaces/src/ValueParsers',
-            1 => __DIR__ . '/..' . '/data-values/common/src/ValueParsers',
+            0 => __DIR__ . '/..' . '/webmozart/json/src',
         ),
-        'ValueFormatters\\' => 
+        'Webmozart\\Assert\\' => 
         array (
-            0 => __DIR__ . '/..' . '/data-values/interfaces/src/ValueFormatters',
-            1 => __DIR__ . '/..' . '/data-values/common/src/ValueFormatters',
+            0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Serializers\\' => 
+        'Seld\\JsonLint\\' => 
         array (
-            0 => __DIR__ . '/..' . '/serialization/serialization/src/Serializers',
+            0 => __DIR__ . '/..' . '/seld/jsonlint/src/Seld/JsonLint',
         ),
-        'SMW\\Maintenance\\' => 
+        'Madcoda\\Youtube\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/maintenance',
+            0 => __DIR__ . '/..' . '/madcoda/php-youtube-api/src',
         ),
-        'SMW\\' => 
+        'JsonSchema\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/src',
-        ),
-        'ParserHooks\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mediawiki/parser-hooks/src',
-        ),
-        'ParamProcessor\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/param-processor/param-processor/src',
-        ),
-        'Onoi\\MessageReporter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/onoi/message-reporter/src',
-        ),
-        'Onoi\\HttpRequest\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/onoi/http-request/src',
-        ),
-        'Onoi\\EventDispatcher\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/onoi/event-dispatcher/src',
-        ),
-        'Onoi\\CallbackContainer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/onoi/callback-container/src',
-        ),
-        'Onoi\\Cache\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/onoi/cache/src',
-        ),
-        'Onoi\\BlobStore\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/onoi/blob-store/src',
-        ),
-        'Deserializers\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/serialization/serialization/src/Deserializers',
-        ),
-        'DataValues\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/data-values/common/src/DataValues',
-        ),
-        'Composer\\Installers\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'D' => 
-        array (
-            'DataValues\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/data-values/data-values/src',
-            ),
+            0 => __DIR__ . '/..' . '/justinrainbow/json-schema/src/JsonSchema',
         ),
     );
 
     public static $classMap = array (
-        'Comparable' => __DIR__ . '/..' . '/data-values/data-values/src/interfaces/Comparable.php',
-        'Copyable' => __DIR__ . '/..' . '/data-values/data-values/src/interfaces/Copyable.php',
-        'DataValues\\Tests\\DataValueTest' => __DIR__ . '/..' . '/data-values/data-values/tests/phpunit/DataValueTest.php',
-        'Hashable' => __DIR__ . '/..' . '/data-values/data-values/src/interfaces/Hashable.php',
-        'Immutable' => __DIR__ . '/..' . '/data-values/data-values/src/interfaces/Immutable.php',
-        'ParamProcessor\\Tests\\Definitions\\NumericParamTest' => __DIR__ . '/..' . '/param-processor/param-processor/tests/phpunit/Definitions/NumericParamTest.php',
-        'ParamProcessor\\Tests\\Definitions\\ParamDefinitionTest' => __DIR__ . '/..' . '/param-processor/param-processor/tests/phpunit/Definitions/ParamDefinitionTest.php',
-        'SMWAdmin' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_SpecialSMWAdmin.php',
-        'SMWAskPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_SpecialAsk.php',
-        'SMWCategoryResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWConceptValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Concept.php',
-        'SMWContainerSemanticData' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Container.php',
-        'SMWDIBlob' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Blob.php',
-        'SMWDIBoolean' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Bool.php',
-        'SMWDIConcept' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWDIContainer' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Container.php',
-        'SMWDIError' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Error.php',
-        'SMWDIGeoCoord' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_GeoCoord.php',
-        'SMWDIHandlerBlob' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_Blob.php',
-        'SMWDIHandlerBoolean' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_Bool.php',
-        'SMWDIHandlerConcept' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_Concept.php',
-        'SMWDIHandlerGeoCoord' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_GeoCoord.php',
-        'SMWDIHandlerNumber' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_Number.php',
-        'SMWDIHandlerTime' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_Time.php',
-        'SMWDIHandlerUri' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_URI.php',
-        'SMWDIHandlerWikiPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DIHandler_WikiPage.php',
-        'SMWDINumber' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Number.php',
-        'SMWDIProperty' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWDISerializer' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWDIString' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_String.php',
-        'SMWDITime' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Time.php',
-        'SMWDIUri' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_URI.php',
-        'SMWDIWikiPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWDSVResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWDataItem' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DataItem.php',
-        'SMWDataItemException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWDataItemHandler' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_DataItemHandler.php',
-        'SMWDataValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DataValue.php',
-        'SMWEmbeddedResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWErrorValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Error.php',
-        'SMWExpData' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/export/SMW_Exp_Data.php',
-        'SMWExportController' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/export/SMW_ExportController.php',
-        'SMWExporter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/export/SMW_Exporter.php',
-        'SMWExternalHooks' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/ExternalHooks.php',
-        'SMWIResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWInfolink' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/SMW_Infolink.php',
-        'SMWLanguage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/languages/SMW_Language.php',
-        'SMWListResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWNumberValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Number.php',
-        'SMWOrderedListPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/articlepages/SMW_OrderedListPage.php',
-        'SMWOutputs' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/SMW_Outputs.php',
-        'SMWPageLister' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/SMW_PageLister.php',
-        'SMWPageProperty' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_SpecialPageProperty.php',
-        'SMWPageSchemas' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/SMW_PageSchemas.php',
-        'SMWParamFormat' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/params/SMW_ParamFormat.php',
-        'SMWPropertyListValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_PropertyList.php',
-        'SMWPropertyPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/articlepages/SMW_PropertyPage.php',
-        'SMWPropertyValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Property.php',
-        'SMWQuantityValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Quantity.php',
-        'SMWQuery' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/query/SMW_Query.php',
-        'SMWQueryParser' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/query/SMW_QueryParser.php',
-        'SMWQueryProcessor' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/query/SMW_QueryProcessor.php',
-        'SMWQueryResult' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SMW_QueryResult.php',
-        'SMWQuerySpecialPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_QuerySpecialPage.php',
-        'SMWRDFResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWRDFXMLSerializer' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/export/SMW_Serializer_RDFXML.php',
-        'SMWRecordValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Record.php',
-        'SMWRefreshJob' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWResultArray' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SMW_ResultArray.php',
-        'SMWResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWSQLHelpers' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SMW_SQLHelpers.php',
-        'SMWSQLStore3' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_SQLStore3.php',
-        'SMWSQLStore3Readers' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_SQLStore3_Readers.php',
-        'SMWSQLStore3SetupHandlers' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_SQLStore3_SetupHandlers.php',
-        'SMWSQLStore3Writers' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_SQLStore3_Writers.php',
-        'SMWSemanticData' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWSerializer' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/export/SMW_Serializer.php',
-        'SMWSparqlDatabase' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWSparqlDatabase4Store' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWSparqlDatabaseVirtuoso' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWSparqlStore' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWSpecialBrowse' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_SpecialBrowse.php',
-        'SMWSpecialOWLExport' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_SpecialOWLExport.php',
-        'SMWSpecialTypes' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_SpecialTypes.php',
-        'SMWSql3SmwIds' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_Sql3SmwIds.php',
-        'SMWSql3StubSemanticData' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SQLStore/SMW_Sql3StubSemanticData.php',
-        'SMWStore' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWStringLengthException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_String.php',
-        'SMWStringValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_String.php',
-        'SMWTimeValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Time.php',
-        'SMWTurtleSerializer' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/export/SMW_Serializer_Turtle.php',
-        'SMWTypesValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_Types.php',
-        'SMWURIResolver' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SMW_SpecialURIResolver.php',
-        'SMWURIValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_URI.php',
-        'SMWUpdateJob' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/IdeAliases.php',
-        'SMWWikiPageValue' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/datavalues/SMW_DV_WikiPage.php',
-        'SMW\\AggregatablePrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/AggregatablePrinter.php',
-        'SMW\\AskParserFunction' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/parserhooks/AskParserFunction.php',
-        'SMW\\CategoryResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/CategoryResultPrinter.php',
-        'SMW\\ConceptPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/articlepages/ConceptPage.php',
-        'SMW\\ConceptParserFunction' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/parserhooks/ConceptParserFunction.php',
-        'SMW\\ContentParser' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/ContentParser.php',
-        'SMW\\CsvResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/CsvResultPrinter.php',
-        'SMW\\DIConcept' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/DIConcept.php',
-        'SMW\\DIProperty' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_Property.php',
-        'SMW\\DIWikiPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/dataitems/SMW_DI_WikiPage.php',
-        'SMW\\DataItemException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/DataItemException.php',
-        'SMW\\DeclareParserFunction' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/parserhooks/DeclareParserFunction.php',
-        'SMW\\DsvResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/DsvResultPrinter.php',
-        'SMW\\EmbeddedResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/EmbeddedResultPrinter.php',
-        'SMW\\ExportPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/ExportPrinter.php',
-        'SMW\\FeedResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/FeedResultPrinter.php',
-        'SMW\\FileExportPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/FileExportPrinter.php',
-        'SMW\\FormatFactory' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/FormatFactory.php',
-        'SMW\\Highlighter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/Highlighter.php',
-        'SMW\\InvalidNamespaceException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/InvalidNamespaceException.php',
-        'SMW\\InvalidPredefinedPropertyException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/InvalidPredefinedPropertyException.php',
-        'SMW\\InvalidPropertyException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/InvalidPropertyException.php',
-        'SMW\\InvalidResultException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/InvalidResultException.php',
-        'SMW\\InvalidSemanticDataException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/InvalidSemanticDataException.php',
-        'SMW\\InvalidSettingsArgumentException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/InvalidSettingsArgumentException.php',
-        'SMW\\InvalidStoreException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/InvalidStoreException.php',
-        'SMW\\JsonResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/JsonResultPrinter.php',
-        'SMW\\ListResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/ListResultPrinter.php',
-        'SMW\\MessageFormatter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/formatters/MessageFormatter.php',
-        'SMW\\ParameterInput' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/ParameterInput.php',
-        'SMW\\ParserData' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/ParserData.php',
-        'SMW\\PropertiesQueryPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/querypages/PropertiesQueryPage.php',
-        'SMW\\QueryPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/querypages/QueryPage.php',
-        'SMW\\QueryResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/QueryResultPrinter.php',
-        'SMW\\RawResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/RawResultPrinter.php',
-        'SMW\\RdfResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/RdfResultPrinter.php',
-        'SMW\\RecurringEvents' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/RecurringEvents.php',
-        'SMW\\RecurringEventsParserFunction' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/parserhooks/RecurringEventsParserFunction.php',
-        'SMW\\ResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/ResultPrinter.php',
-        'SMW\\SemanticData' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/SemanticData.php',
-        'SMW\\SetParserFunction' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/parserhooks/SetParserFunction.php',
-        'SMW\\Settings' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/Settings.php',
-        'SMW\\Setup' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/Setup.php',
-        'SMW\\ShowParserFunction' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/parserhooks/ShowParserFunction.php',
-        'SMW\\SpecialConcepts' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SpecialConcepts.php',
-        'SMW\\SpecialPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SpecialPage.php',
-        'SMW\\SpecialProperties' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SpecialProperties.php',
-        'SMW\\SpecialSemanticStatistics' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SpecialSemanticStatistics.php',
-        'SMW\\SpecialUnusedProperties' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SpecialUnusedProperties.php',
-        'SMW\\SpecialWantedProperties' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/specials/SpecialWantedProperties.php',
-        'SMW\\Store' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/SMW_Store.php',
-        'SMW\\StoreFactory' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/StoreFactory.php',
-        'SMW\\StoreUpdater' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/StoreUpdater.php',
-        'SMW\\Store\\PropertyStatisticsStore' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/storage/PropertyStatisticsStore.php',
-        'SMW\\Subobject' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/Subobject.php',
-        'SMW\\SubobjectParserFunction' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/parserhooks/SubobjectParserFunction.php',
-        'SMW\\TableResultPrinter' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/queryprinters/TableResultPrinter.php',
-        'SMW\\UnknownIdException' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/exceptions/UnknownIdException.php',
-        'SMW\\UnusedPropertiesQueryPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/querypages/UnusedPropertiesQueryPage.php',
-        'SMW\\WantedPropertiesQueryPage' => __DIR__ . '/../..' . '/extensions/SemanticMediaWiki/includes/querypages/WantedPropertiesQueryPage.php',
-        'ValueFormatters\\Test\\ValueFormatterTestBase' => __DIR__ . '/..' . '/data-values/interfaces/tests/ValueFormatters/ValueFormatterTestBase.php',
-        'ValueParsers\\Normalizers\\Test\\NullStringNormalizerTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/Normalizers/NullStringNormalizerTest.php',
-        'ValueParsers\\Test\\BoolParserTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/BoolParserTest.php',
-        'ValueParsers\\Test\\DispatchingValueParserTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/DispatchingValueParserTest.php',
-        'ValueParsers\\Test\\FloatParserTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/FloatParserTest.php',
-        'ValueParsers\\Test\\IntParserTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/IntParserTest.php',
-        'ValueParsers\\Test\\NullParserTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/NullParserTest.php',
-        'ValueParsers\\Test\\StringParserTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/StringParserTest.php',
-        'ValueParsers\\Test\\StringValueParserTest' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/StringValueParserTest.php',
-        'ValueParsers\\Test\\ValueParserTestBase' => __DIR__ . '/..' . '/data-values/common/tests/ValueParsers/ValueParserTestBase.php',
+        'Feed' => __DIR__ . '/..' . '/dg/rss-php/src/Feed.php',
+        'FeedException' => __DIR__ . '/..' . '/dg/rss-php/src/Feed.php',
+        'Madcoda\\Youtube' => __DIR__ . '/..' . '/madcoda/php-youtube-api/src/compat.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -317,7 +65,6 @@ class ComposerStaticInit38ba51e01a26887269b32493e5e3f12a
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit38ba51e01a26887269b32493e5e3f12a::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit38ba51e01a26887269b32493e5e3f12a::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit38ba51e01a26887269b32493e5e3f12a::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit38ba51e01a26887269b32493e5e3f12a::$classMap;
 
         }, null, ClassLoader::class);
