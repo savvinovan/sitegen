@@ -11,6 +11,7 @@ if ($req[0] == 'api') {
     // News Class пример класса ньюс
     require '../application/controllers/get_news.php';
     $gn = new GetNews($req[2]);
+    print_r($gn->getReq());
     //print_r($gn->getReq());
     // Wiki class
     require '../application/controllers/get_wiki.php';
