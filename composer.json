@@ -1,5 +1,5 @@
 {
     "require": {
-        "mediawiki/semantic-media-wiki": "^2.4"
+        "webmozart/json": "^1.2"
     }
 }
