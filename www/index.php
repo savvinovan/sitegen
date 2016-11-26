@@ -9,10 +9,13 @@ if ($req[0] == 'api') {
     // $req[2] - слово через которое мы генерируем сайт
     // ========= Get Infos ========
     // News Class пример класса ньюс
+    //Возвращает Array(title,description,link,items)
+    //      ,где items = Array(title,link,date,img,description)
     require '../application/controllers/get_news.php';
     $gn = new GetNews($req[2]);
     print_r($gn->getReq());
-    //print_r($gn->getReq());
+    
+
     // Wiki class
     require '../application/controllers/get_wiki.php';
     $gw = new GetWiki($req[2]);
