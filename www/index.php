@@ -1,6 +1,7 @@
 
 <?php
 // Requets Router
+// Для теста вашего 
 $req = explode('/', $_REQUEST['path']);
 if ($req[0] == 'api') {
   // req = api
@@ -13,7 +14,7 @@ if ($req[0] == 'api') {
     $gn = new GetNews($req[2]);
     print_r($gn->getReq());
     // Wiki class
-    
+
     // Search Image class
 
     // MySQL store
