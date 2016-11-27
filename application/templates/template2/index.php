@@ -129,15 +129,17 @@
                     <h2><?=mb_substr($newsArr['items'][2]['title'],0,40, 'utf-8')?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][2]['description']?></p><!-- text novosti -->
                 </div>
-              <div class="col-lg-4">
+            </div>
+            <div class="row" style="text-align: center;">
+              <div class="col-lg-3">
                     <h2><?=mb_substr($newsArr['items'][3]['title'],0,40, 'utf-8')?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][3]['description']?></p><!-- text novosti -->
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <h2><?=mb_substr($newsArr['items'][4]['title'],0,40, 'utf-8')?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][4]['description']?></p><!-- text novosti -->
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <h2><?=mb_substr($newsArr['items'][5]['title'],0,40, 'utf-8')?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][5]['description']?></p><!-- text novosti -->
                 </div>
