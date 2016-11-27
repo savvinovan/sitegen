@@ -3,7 +3,7 @@
 require '../vendor/autoload.php';
 use Madcoda\Youtube;
 
-class GetYoutube {
+class get_youtube {
   public $req;
   public $youtube;
   function __construct($req) {
