@@ -4,9 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0c79ba8ee1f5517f325af2c7be1e2001",
-    "content-hash": "d85c6f7094a9c91f7ded5d62bb0ec2aa",
+    "hash": "73eb779e865e0244e259291bc39f9859",
+    "content-hash": "1764bcc2f02c372b34deb4d8aa89135c",
     "packages": [
+        {
+            "name": "dg/rss-php",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dg/rss-php.git",
+                "reference": "b33661748d89d8c0c288e8d86feada6018d05031"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dg/rss-php/zipball/b33661748d89d8c0c288e8d86feada6018d05031",
+                "reference": "b33661748d89d8c0c288e8d86feada6018d05031",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "http://davidgrudl.com"
+                }
+            ],
+            "description": "RSS & Atom Feeds for PHP is a very small and easy-to-use library for consuming an RSS and Atom feed",
+            "homepage": "https://github.com/dg/rss-php",
+            "keywords": [
+                "atom",
+                "feed",
+                "rss"
+            ],
+            "time": "2015-07-02 11:54:05"
+        },
         {
             "name": "justinrainbow/json-schema",
             "version": "v1.6.0",
@@ -72,6 +114,98 @@
                 "schema"
             ],
             "time": "2016-01-06 14:37:04"
+        },
+        {
+            "name": "madcoda/php-youtube-api",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/madcoda/php-youtube-api.git",
+                "reference": "53307963a544452419597509bc8a4c7b9bfc0366"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/madcoda/php-youtube-api/zipball/53307963a544452419597509bc8a4c7b9bfc0366",
+                "reference": "53307963a544452419597509bc8a4c7b9bfc0366",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@stable"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Madcoda\\Youtube\\": "src"
+                },
+                "classmap": [
+                    "src/compat.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Madcoda",
+                    "email": "jason@madcoda.com"
+                }
+            ],
+            "description": "PHP wrapper for the Youtube Data API v3",
+            "keywords": [
+                "api",
+                "madcoda",
+                "video",
+                "youtube"
+            ],
+            "time": "2016-11-02 11:56:08"
+        },
+        {
+            "name": "olamedia/nokogiri",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/olamedia/nokogiri.git",
+                "reference": "d9c942a60a2b397eaea3c902a03e45c8010f4e48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/olamedia/nokogiri/zipball/d9c942a60a2b397eaea3c902a03e45c8010f4e48",
+                "reference": "d9c942a60a2b397eaea3c902a03e45c8010f4e48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "nokogiri.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "olamedia",
+                    "email": "olamedia@gmail.com",
+                    "homepage": "http://github.com/olamedia",
+                    "role": "Developer"
+                }
+            ],
+            "description": "HTML Parser",
+            "homepage": "http://github.com/olamedia/nokogiri",
+            "keywords": [
+                "html",
+                "parse",
+                "parser"
+            ],
+            "time": "2015-05-19 18:39:31"
         },
         {
             "name": "seld/jsonlint",
