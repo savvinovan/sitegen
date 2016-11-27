@@ -1,4 +1,4 @@
-<?
+<?php
 class get_img {
 	public $urls;
 	function __construct($req) {
