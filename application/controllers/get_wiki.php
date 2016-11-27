@@ -3,7 +3,7 @@ require '../vendor/autoload.php';
 use Webmozart\Json\JsonDecoder;
 $decoder = new JsonDecoder();
 
-class GetWiki {
+class get_wiki {
   public $req;
   public $response;
   function __construct($req) {
