@@ -33,7 +33,7 @@
 	
 		
 		<div class="page-scroll">
-			<a href="#about">
+			<a href="/api/v1/<?=$req[2]?>/template3/#about">
 				<i class="fa fa-angle-down fa-5x animated"></i>
 			</a>
 		</div>
@@ -56,10 +56,10 @@
                                                       <!-- Collect the nav links, forms, and other content for toggling -->
                                                       <div class="collapse navbar-collapse" id="menu">
                                                             <ul class="nav navbar-nav">
-                                                                  <li class="active"><a href="#intro">Главная</a></li>
-                                                                  <li><a href="#about">Информация</a></li>
-														          <li><a href="#gallery">Галерея</a></li>                                                                                                             
-                                                                  <li><a href="#contact">Поговори со мной</a></li>
+                                                                  <li class="active"><a href="/api/v1/<?=$req[2]?>/template3/#intro">Главная</a></li>
+                                                                  <li><a href="/api/v1/<?=$req[2]?>/template3/#about">Информация</a></li>
+														          <li><a href="/api/v1/<?=$req[2]?>/template3/#gallery">Галерея</a></li>    
+                                                                  
                                                             </ul>
                                                       </div>
                                                       <!-- /.Navbar-collapse -->
@@ -92,21 +92,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-				
+					
 					<img src="<?=$img->urls[1]['regular']?>" class="img-responsive img-rounded" alt="" />
 				</div>		
 				<div class="col-md-6">
-					<p><strong>You'll fall in love with me at the first sight</strong></p>
-					<p>
-					Lorem ipsum dolor sit amet, ei purto tamquam ceteros his, eos in graece posidonium. 
-					Ex nullam vidisse salutatus sed, ea persius phaedrum tincidunt vel. Option virtute nonumes ne est. 
-					Id homero expetendis eam, dictas rationibus ut has.
-					</p>
-					<blockquote>
-					Pri pertinacia elaboraret te, an eirmod delicatissimi nec. Eu liber quodsi maiorum mei. 
-					Civibus perfecto rationibus id his, est noster nostrud aliquando at.
-					</blockquote>
-					<a href="#gallery" class="btn btn-skin btn-lg btn-scroll">See my photos</a>
+					<?=$ex?>
 				</div>
 			</div>		
 		</div>
@@ -114,46 +104,7 @@
 	<!-- /Section: about -->
 	
 	<!-- Section: separator -->
-    <section id="separator" class="home-section parallax text-center" data-stellar-background-ratio="0.5">
-		
-		<div class="container">
-			<div class="row">
-					<div class="col-xs-6 col-sm-3 col-md-3">
-						<div class="align-center txt-shadow">
-							<div class="icon">
-								<i class="fa fa-graduation-cap fa-5x"></i>
-							</div>
-						<span class="color-white">Bachelor of Design</span>
-						</div>
-					</div>
-					<div class="col-xs-6 col-sm-3 col-md-3">
-						<div class="align-center txt-shadow">
-							<div class="icon">
-								<i class="fa fa-heart fa-5x"></i>
-							</div>
-						<span class="color-white">10x failed in love</span>
-						</div>
-					</div>
-					<div class="col-xs-6 col-sm-3 col-md-3">
-						<div class="align-center txt-shadow">
-							<div class="icon">
-								<i class="fa fa-plane fa-5x"></i>
-							</div>
-						<span class="color-white">I love traveling</span>
-						</div>
-					</div>
-					<div class="col-xs-6 col-sm-3 col-md-3">
-						<div class="align-center txt-shadow">
-							<div class="icon">
-								<i class="fa fa-camera fa-5x"></i>
-							</div>
-						<span class="color-white">I'm photographer</span>
-						</div>
-					</div>
-			</div>		
-		</div>
-	</section>
-	<!-- /Section: separator -->
+  	<!-- /Section: separator -->
 	
 	
 	<!-- Section: gallery -->
@@ -177,14 +128,14 @@
                 <div class="col-sm-12 col-md-12 col-lg-12" >
 					<div class="wow bounceInUp" data-wow-delay="0.4s">
                     <div id="owl-works" class="owl-carousel">
-                        <div class="item"><a href="/template3/img/gallery/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/1.jpg" class="img-responsive" alt="img"></a></div>
-                        <div class="item"><a href="/template3/img/gallery/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/2.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="/template3/img/gallery/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/3.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="/template3/img/gallery/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/4.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="/template3/img/gallery/5.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/5.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="/template3/img/gallery/6.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/6.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="/template3/img/gallery/7.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/7.jpg" class="img-responsive " alt="img"></a></div>
-                        <div class="item"><a href="/template3/img/gallery/8.jpg" title="This is an image title" data-lightbox-gallery="gallery1"><img src="/template3/img/gallery/8.jpg" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[0]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[0]['regular']?>" class="img-responsive" alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[1]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[1]['regular']?>" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[2]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[2]['regular']?>" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[3]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[3]['regular']?>" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[4]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[4]['regular']?>" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[5]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[5]['regular']?>" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[6]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[6]['regular']?>" class="img-responsive " alt="img"></a></div>
+                        <div class="item"><a href="<?=$img->urls[7]['regular']?>" title="This is an image title" data-lightbox-gallery="gallery1"><img src="<?=$img->urls[7]['regular']?>" class="img-responsive " alt="img"></a></div>
                     </div>
 					</div>
                 </div>
@@ -219,44 +170,12 @@
     <div class="row">
         <div class="col-lg-8 col-md-offset-2">
             <div class="form-wrapper marginbot-50">
-                <form id="contact-form">
+                
                 <div class="row">
     
-                        <div class="form-group">
-                            <label for="name">
-                                Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email">
-                                Email Address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="service">Friendship request</option>
-                                <option value="suggestions">Wanna marry you</option>
-                                <option value="product">Prom night invitation</option>
-                            </select>
-                        </div>
-          
-             
-                        <div class="form-group">
-                            <label for="name">
-                                Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
-                        </div>
-       
-           
-                        <button type="submit" class="btn btn-skin btn-block" id="btnContactUs">
-                            Send Message</button>
-       
+                       <iframe width="800" height="600" src="https://www.youtube.com/embed/<?=$data[0]->id->videoId?>" frameborder="0" allowfullscreen></iframe>
                 </div>
-                </form>
+                
 				
             </div>
 			<div class="text-center">
@@ -274,7 +193,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
-					<p>&copy;Copyright 2014 . Alice Lonely . design by <a href="http://bootstraptaste.co">Bootstrap Themes</a></p>
+					<p>&copy;Copyright 2014 . Alice Lonely . design by <a href="/template3/http://bootstraptaste.co">Bootstrap Themes</a></p>
 				</div>
                 <!-- 
                     All links in the footer should remain intact. 
