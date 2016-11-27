@@ -63,7 +63,7 @@ if ($req[0] == 'api') {
     if (!file_exists('../sites/'.$hash_query)){
         mkdir('../sites/'.$hash_query);
     }
-    $dump_site = file_get_contents('http://sitegen/api/v1/'.$req[1]);
+    $dump_site = file_get_contents('http://sitegen.s-vfu.ru/api/v1/'.$req[1]);
     $filename = '../sites/'.$hash_query.'/dump.html';
     file_put_contents($filename, $dump_site);
     echo $hash_query;
