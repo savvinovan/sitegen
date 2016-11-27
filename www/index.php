@@ -17,7 +17,6 @@ if ($req[0] == 'api') {
     //      ,где items = Array(title,link,date,img,description)   
     $gn = new get_news($req[2]);
     $newsArr = (array) $gn->getReq();
-    //print_r($gn->getReq());
     
     // Wiki class    
     $gw = new get_wiki($req[2]);
