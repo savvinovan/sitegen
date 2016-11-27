@@ -1,4 +1,4 @@
-<?
+<?php
 class translate {
 	public $en;
 	function __construct ($req) {
