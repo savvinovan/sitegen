@@ -34,7 +34,7 @@ if ($req[0] == 'api') {
     $req['en']=$translate->en;
     
     // Search Image class    
-    //$img = new get_img($req['en']);   //thumbnail, small, regular, full, raw $img->urls[0]['raw']
+    $img = new get_img($req['en']);   //thumbnail, small, regular, full, raw $img->urls[0]['raw']
     
     // Youtube search api    
     $gy = new get_youtube($req[2]);
