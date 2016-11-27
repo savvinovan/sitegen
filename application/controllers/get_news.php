@@ -2,7 +2,7 @@
 require '../vendor/autoload.php';
 
 
-class get_news {
+class GetNews {
   public $req;
   function __construct($req) {
     $this->req = $req;

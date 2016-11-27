@@ -11,6 +11,27 @@ if ($req[0] == 'api') {
     // req = api/v1
     // $req[2] - слово через которое мы генерируем сайт
     // ========= Get Infos ========
+<<<<<<< HEAD
+    // News Class пример класса ньюс
+    //Возвращает Array(title,description,link,items)
+    //      ,где items = Array(title,link,date,img,description)
+    require '../application/controllers/get_news.php';
+    $gn = new GetNews($req[2]);
+    print_r($gn->getReq());
+    
+
+    // Wiki class
+    require '../application/controllers/get_wiki.php';
+    $gw = new GetWiki($req[2]);
+    $ex = $gw->parseResponse();
+    echo $ex;
+    // Search Image class
+
+    // Youtube search api
+
+    require '../application/controllers/get_youtube.php';
+    $gy = new GetYoutube($req[2]);
+=======
     // News Class пример класса ньюс    
     $gn = new get_news($req[2]);
     $newsArr = (array) $gn->getReq();
@@ -25,6 +46,7 @@ if ($req[0] == 'api') {
     $img = new get_img($req['en']);   //thumbnail, small, regular, full, raw $img->urls[0]['raw']
     // Youtube search api    
     $gy = new get_youtube($req[2]);
+>>>>>>> refs/remotes/origin/master
     $data = $gy->getVideoUrl();
     $data[0]->id->videoId; 
 
