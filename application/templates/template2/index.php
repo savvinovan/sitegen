@@ -118,27 +118,27 @@
             </div>
             <div class="row" style="text-align: center;">
                 <div class="col-lg-4">
-                    <h2><?=$newsArr['items'][0]['title']?></h2><!-- Nazvanie novosti -->
+                    <h2><?=substr($newsArr['items'][0]['title'],0,64)?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][0]['description']?></p><!-- text novosti -->
                 </div>
                 <div class="col-lg-4">
-                    <h2><?=$newsArr['items'][1]['title']?>/h2><!-- Nazvanie novosti -->
+                    <h2><?=substr($newsArr['items'][1]['title'],0,64)?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][1]['description']?></p><!-- text novosti -->
                 </div>
                 <div class="col-lg-4">
-                    <h2>Н<?=$newsArr['items'][2]['title']?></h2><!-- Nazvanie novosti -->
+                    <h2><?=substr($newsArr['items'][2]['title'],0,64)?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][2]['description']?></p><!-- text novosti -->
                 </div>
               <div class="col-lg-4">
-                    <h2><?=$newsArr['items'][3]['title']?></h2><!-- Nazvanie novosti -->
+                    <h2><?=substr($newsArr['items'][3]['title'],0,64)?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][3]['description']?></p><!-- text novosti -->
                 </div>
                 <div class="col-lg-4">
-                    <h2><?=$newsArr['items'][4]['title']?></h2><!-- Nazvanie novosti -->
+                    <h2><?=substr($newsArr['items'][4]['title'],0,64)?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][4]['description']?></p><!-- text novosti -->
                 </div>
                 <div class="col-lg-4">
-                    <h2><?=$newsArr['items'][5]['title']?></h2><!-- Nazvanie novosti -->
+                    <h2><?=substr($newsArr['items'][5]['title'],0,64)?></h2><!-- Nazvanie novosti -->
                     <p><?=$newsArr['items'][5]['description']?></p><!-- text novosti -->
                 </div>
             </div>

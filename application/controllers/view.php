@@ -1,4 +1,4 @@
-<?
+<?php
 class view {
 	public $rcount;
 	public $dir;
