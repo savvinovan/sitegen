@@ -79,44 +79,45 @@
     <div id="news" class="container content-padding">
 	  <h1>Новости</h1>
       <div class="row">
-        <div class="col-lg-3 news-img-center">
-
+        <div class="col-lg-4 news-img-center">
           <?=$newsArr['items'][0]['img']?>
           <h2><?=$newsArr['items'][0]['title']?></h2> <!-- suda nazvanie novosti -->
           <p><?=$newsArr['items'][0]['description']?></p> <!-- suda text novosti -->
           <p><a class="btn btn-default" href="<?=$newsArr['items'][0]['link']?>" role="button">Подробно</a></p>
         </div>
-        <div class="col-lg-3 news-img-center">
+        <div class="col-lg-4 news-img-center">
           <?=$newsArr['items'][1]['img']?>
           <h2><?=$newsArr['items'][1]['title']?></h2><!-- suda nazvanie novosti -->
           <p><?=$newsArr['items'][1]['description']?></p><!-- suda text novosti -->
           <p><a class="btn btn-default" href="<?=$newsArr['items'][1]['link']?>" role="button">Подробно</a></p>
         </div>
-        <div class="col-lg-3 news-img-center">
+        <div class="col-lg-4 news-img-center">
           <?=$newsArr['items'][2]['img']?>
           <h2><?=$newsArr['items'][2]['title']?></h2><!-- suda nazvanie novosti -->
           <p><?=$newsArr['items'][2]['description']?></p><!-- suda text novosti -->
           <p><a class="btn btn-default" href="<?=$newsArr['items'][2]['link']?>" role="button">Подробно</a></p>
         </div>
-        <div class="col-lg-3 news-img-center">
+      </div>
+      <div class="row">
+        <div class="col-lg-4 news-img-center">
           <?=$newsArr['items'][3]['img']?>
           <h2><?=$newsArr['items'][3]['title']?></h2><!-- suda nazvanie novosti -->
           <p><?=$newsArr['items'][3]['description']?></p><!-- suda text novosti -->
           <p><a class="btn btn-default" href="<?=$newsArr['items'][3]['link']?>" role="button">Подробно</a></p>
         </div>
-        <div class="col-lg-3 news-img-center">
+        <div class="col-lg-4 news-img-center">
           <?=$newsArr['items'][4]['img']?>
           <h2><?=$newsArr['items'][4]['title']?></h2><!-- suda nazvanie novosti -->
           <p><?=$newsArr['items'][4]['description']?></p><!-- suda text novosti -->
           <p><a class="btn btn-default" href="<?=$newsArr['items'][4]['link']?>" role="button">Подробно</a></p>
         </div>
-        <div class="col-lg-3 news-img-center">
+        <div class="col-lg-4 news-img-center">
           <?=$newsArr['items'][5]['img']?>
           <h2><?=$newsArr['items'][5]['title']?></h2><!-- suda nazvanie novosti -->
           <p><?=$newsArr['items'][5]['description']?></p><!-- suda text novosti -->
           <p><a class="btn btn-default" href="<?=$newsArr['items'][5]['link']?>" role="button">Подробно</a></p>
         </div>
-      </div>
+       </div> 
     <hr class="hr-style"/>
     </div>  
 
@@ -126,8 +127,8 @@
 	  <h1>Видео</h1>
       <div class="row">
         <div class="col-lg-12 news-img-center">
-			<iframe width="800" height="600" src="https://www.youtube.com/embed/<?=$data[0]->id->videoId?>" frameborder="0" allowfullscreen></iframe><!-- suda youtube -->
-		</div>
+			     <iframe width="800" height="600" src="https://www.youtube.com/embed/<?=$data[0]->id->videoId?>" frameborder="0" allowfullscreen></iframe><!-- suda youtube -->
+		    </div>
       </div>
 	<hr class="hr-style"/>
       <!-- Info -->
