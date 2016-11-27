@@ -33,7 +33,7 @@
 	
 		
 		<div class="page-scroll">
-			<a href="/api/v1/<?=$req[2]?>/template3/#about">
+			<a href="#about">
 				<i class="fa fa-angle-down fa-5x animated"></i>
 			</a>
 		</div>
@@ -56,10 +56,10 @@
                                                       <!-- Collect the nav links, forms, and other content for toggling -->
                                                       <div class="collapse navbar-collapse" id="menu">
                                                             <ul class="nav navbar-nav">
-                                                                  <li class="active"><a href="/api/v1/<?=$req[2]?>/template3/#intro">Главная</a></li>
-                                                                  <li><a href="/api/v1/<?=$req[2]?>/template3/#about">Информация</a></li>
-														          <li><a href="/api/v1/<?=$req[2]?>/template3/#gallery">Галерея</a></li>                                                                                                             
-                                                                  <li><a href="/api/v1/<?=$req[2]?>/template3/#contact">Поговори со мной</a></li>
+                                                                  <li class="active"><a href="#intro">Главная</a></li>
+                                                                  <li><a href="#about">Информация</a></li>
+														          <li><a href="#gallery">Галерея</a></li>                                                                                                             
+                                                                  <li><a href="#contact">Поговори со мной</a></li>
                                                             </ul>
                                                       </div>
                                                       <!-- /.Navbar-collapse -->
@@ -106,7 +106,7 @@
 					Pri pertinacia elaboraret te, an eirmod delicatissimi nec. Eu liber quodsi maiorum mei. 
 					Civibus perfecto rationibus id his, est noster nostrud aliquando at.
 					</blockquote>
-					<a href="/api/v1/<?=$req[2]?>/template3/#gallery" class="btn btn-skin btn-lg btn-scroll">See my photos</a>
+					<a href="#gallery" class="btn btn-skin btn-lg btn-scroll">See my photos</a>
 				</div>
 			</div>		
 		</div>
@@ -274,7 +274,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-lg-12">
-					<p>&copy;Copyright 2014 . Alice Lonely . design by <a href="/template3/http://bootstraptaste.co">Bootstrap Themes</a></p>
+					<p>&copy;Copyright 2014 . Alice Lonely . design by <a href="http://bootstraptaste.co">Bootstrap Themes</a></p>
 				</div>
                 <!-- 
                     All links in the footer should remain intact. 
