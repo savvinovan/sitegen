@@ -19,4 +19,4 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-system("cmd /c C:\WebServers\home\sitegen\www\sql\create.cmd");
+system("cmd /c Z:\WebServers\home\sitegen\www\sql\create.cmd");
